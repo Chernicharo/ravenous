@@ -1,0 +1,867 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sear",
+				"SearchBar"
+			],
+			[
+				"bus",
+				"business"
+			],
+			[
+				"bu",
+				"business"
+			],
+			[
+				"json",
+				"jsonResponse"
+			],
+			[
+				"so",
+				"sortBy"
+			],
+			[
+				"han",
+				"handleTermChange"
+			],
+			[
+				"hand",
+				"handleLocationChange"
+			],
+			[
+				"sort",
+				"sortByOptionValue"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"sortBy",
+				"sortByOption"
+			],
+			[
+				"buss",
+				"businesses"
+			],
+			[
+				"S",
+				"SearchBar"
+			],
+			[
+				"render",
+				"renderSortByOptions"
+			],
+			[
+				"Busin",
+				"BusinessList"
+			],
+			[
+				"image",
+				"imageSrc"
+			],
+			[
+				"flip",
+				"flipTile"
+			],
+			[
+				"num",
+				"numberOfBombs"
+			],
+			[
+				"number",
+				"numberOfRows"
+			],
+			[
+				"_",
+				"_numberOfBombs"
+			],
+			[
+				"numb",
+				"numberOfRows"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"c",
+				"columnIndex"
+			],
+			[
+				"colu",
+				"columnIndex"
+			],
+			[
+				"row",
+				"rowIndex"
+			],
+			[
+				"player",
+				"playerBoard"
+			],
+			[
+				"numberOf",
+				"numberOfBombs"
+			],
+			[
+				"bomb",
+				"bombBoard"
+			],
+			[
+				"pla",
+				"playerBoard"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"gene",
+				"generateBombBoard"
+			],
+			[
+				"r",
+				"randomColumnsIndex"
+			],
+			[
+				"ran",
+				"randomRowIndex"
+			],
+			[
+				"col",
+				"col-md-12"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"col-md",
+				"col-md-4"
+			],
+			[
+				"paddo",
+				"padding-bottom"
+			],
+			[
+				"col-",
+				"col-md-6"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"col-md-",
+				"col-md-6"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"lc",
+				"lc"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/projects/minesweeper/src/minesweeper.js",
+			"settings":
+			{
+				"buffer_size": 6539,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "//metodo\nconsole.log();\n//propriedade\nconsole.log(\"ola\".length);\n// parametro\nconst funcao = (parametro) =>{};\n\nconsole.\n\n/// usar let e var coretamente http://www.jstips.co/en/javascript/keyword-var-vs-let/  e https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75\n\n\n\n// interpolamento de variavel estilo es6\nconsole.log(`tesde de  es6 ${variavel}`);\n\n\n// outra forma de declarar função (arrow function), normalmente usamos a chamada function decalration, nome da parada entre oarenteses se chama parametro   https://medium.com/@thejasonfile/es5-functions-vs-es6-fat-arrow-functions-864033baa1a\nconst multiplyByThirteen = (inputNumber) => {\n  console.log(inputNumber * 13);\n};\n\nmultiplyByThirteen(9);\n\n// retorno inplicito de função\n\nconst multiplyByNineFifths = celsius => celsius * (9/5); // foi tirado o parenteses de celsius pois só tem 1 parametro\n\nconst getFahrenheit = celsius => multiplyByNineFifths(celsius) + 32; // return foi tirado e as chaves tb pois a função tem uma linha só\n\nconsole.log('The temperature is ' + getFahrenheit(15) + '°F');\n\n//.join(), .slice(), .splice(), .shift(), .unshift(), and .concat()\n\n/*\n.pop() remove the last entry of the array\n\n.push() pushes new entry at the end of the line\n\n.shift() remove the frist entry of the line\n\n.unshift() add a entry to the frist position on a line\n\n.splice(indexToStart, numberOfIndices, 'stringToAdd') remove and add itens to a index https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice\n\n.join() join all the elements of a array into a string and retur it. .join('-') will return a string with the - separator\n\n\nfor(let i=0; i > array.length; i++) loop for com o terador , stop condition e ação no final\n\nwhile( enquantoIssoNãoAcontecer) loop while\n\niteratiors - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods ----  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array\n\n\n.forEach() is used to execute the same code on every element in an array but does not change the array and returns undefined.\n.map() executes the same code on every element in an array and returns a new array with the updated elements.\n.filter() checks every element in an array to see if it meets certain criteria and returns a new array with the elements that return truthy for the criteria.\n\n.forEach( )\n*/\ngroceries.forEach(function(groceryItem) {\n  console.log(' - ' + groceryItem);\n});\n\n\n //com arrow function\ngroceries.forEach(groceryItem => console.log(' - ' + groceryItem););\n\n\n//.map()\n\nlet bigNumbers = numbers.map(function(number) {\n  return number * 10;\n});\n\n\n//.filter()\n\nlet words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door']; \n\nlet shortWords = words.filter(function(word) {\n  return word.length < 6;\n});\n\n\n//.some()\n\nlet words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];\n\n\nconsole.log(words.some(function(word) { \n  return word.length < 6;\n}));\n\n// Use filter to create a new array\n\nlet interestingWords = words.filter(word => word.length > 5);\n\n// Make sure to uncomment the code below and fix the incorrect code before running it\n\nconsole.log(interestingWords.every(word =>  word.length > 5));\n\n\n// control flow\n\nlet variableOne = 'I Exist!';\nif (variableOne) {\n// This code will run because variableOne contains a truthy value.\n} else {\n\n} else if {\n\n}\n\n/* one variable are truthy unless it contain one of this values:\n\nfalse\n0 and -0\n\"\" and '' (empty strings)\nnull\nundefined\nNaN (Not a Number)\ndocument.all (something you will rarely encounter)\n\n\nyou cansuse the ! operator infront of the variable to say its negative, s[o if is false it will run\n\nlet isPhoneCharged = true; \nif (!isPhoneCharged) {\n  console.log('Plug in your phone!');\n} else {\n  console.log('No need to charge!');\n}\n*/\n\n// ternary operator\n\nif (isNightTime) {\n  console.log('Turn on the lights!');\n} else {\n  console.log('Turn off the lights!');\n}\n\n//to\n\nisNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');\n\n\n// objects\n\nlet restaurant = {\n  name: 'Italian Bistro',\n  seatingCapacity: 120,\n  hasDineInSpecial: true,\n  entrees: ['Penne alla Bolognese', 'Chicken Cacciatore', 'Linguine Pesto'],\n  myFunction () => {\n  \treturn ' some thing';\n  }\n};\n\n// acessing objects properties \n// dot notation\nconsole.log(restaurant.entrees);\n// bracket notation\nconsole.log(restaurant['entrees']);\n//One advantage that bracket notation has over dot notation is that you can use variables inside the brackets to select the keys of an object.\nconsole.log(restaurant[variable]);\n\n// ES6 object methods (use it always was posible)\n\n\nconst restaurant = {\n  openRestaurant() {\n    return 'Unlock the door, flip the open sign. We are open for business!';\n  }\n}\n\n\n// this keyword, you can use 'this' to acess properties inside of the same object\n// note thast 'this' on a arrow function works diferrent  https://medium.com/@thejasonfile/es5-functions-vs-es6-fat-arrow-functions-864033baa1a\nconst restaurant = {\n  hasDineInSpecial: true,\n  openRestaurant: function() {\n    if (this.hasDineInSpecial) {\n      return 'Unlock the door, post the special on the board, then flip the open sign.'\n    } else {\n      return 'Unlock the door, then flip the open sign.'\n    }\n  }\n}\n\n// this its really fexible , we can copy that method to another object\n\nlet person = {\n  name: 'Roberto',\n  sayHello() {\n    return `Hello, my name is ${this.name}`;\n  },\n}\nlet friend = {\n  name: `gabe`\n}\nfriend.sayHello = person.sayHello;\n// the return will be 'Hello, my name is gabe' bc the key on the object its the same\n\n\n//Getters and Setters\n// use '_' infront of the key of the object to say its cant be modfy direct by other code, just by a setter. \n// Setter - that its the best way to to eddit properties, this way we can filter some type of inputs\n\nlet person = {\n  _name: 'Lu Xun',\n  _age: 137,\n  \n  set age(ageIn) {\n    if (typeof ageIn === 'number') {\n      this._age = ageIn;\n    }\n    else {\n      console.log('Invalid input');\n      return 'Invalid input';\n    }\n  }\n\n};\n// getter is the way we get the information on a underscore key\n// we call a getter the same way we call a property, without a method\n\n\nlet person = {\n  _name: 'Lu Xun',\n  _age: 137,\n\n  set age(ageIn) {\n    if (typeof ageIn === 'number') {\n      this._age = ageIn;\n    }\n    else {\n      console.log('Invalid input');\n      return 'Invalid input';\n    }\n  },\n  \n  get age(){\n    console.log(`${this._name} is ${this._age} years old.`)\n    return this._age\n  }\n};\n\nperson.age = 39;\nconsole.log(person.age);\n\n//Class\n\n\nclass Dog {\n  constructor(name) {\n    this._name = name;\n    this._behavior = 0;\n    this._remainingVacationDays = 20;\n  }\n\n  get name() {\n    return this._name;\n  }\n\n  get behavior() {\n    return this._behavior;\n  }\n\n  incrementBehavior() {\n    this._behavior++;\n  }\n\n  takeVacationDays(daysOff) {\n    this._remainingVacationDays -= daysOff;\n  }\n}\n\nconst halley = new Dog('Halley');\n\nlet nikko = new Dog('Nikko'); // Create dog named Nikko\nnikko.incrementBehavior(); // Add 1 to nikko instance's behavior\nlet bradford = new Dog('Bradford'); // Create dog name Bradford\nconsole.log(nikko.behavior); // Logs 1 to the console\nconsole.log(bradford.behavior); // Logs 0 to the console\n\n\n\n//  superclasses(parent) e subclasses(child)\nclass Animal {\n  constructor(name) {\n    this._name = name;\n    this._behavior = 0;\n  }\n\n  get name() {\n    return this._name;\n  }\n\n  get behavior() {\n    return this._behavior;\n  }\n\n  incrementBehavior() {\n    this._behavior++;\n  }\n}\n\nclass Cat extends Animal {\n  constructor(name, usesLitter) {\n    super(name); // pass all the constructor of the parent class. When the Animal constructor runs, it sets this._name = name; for new Cat instances.\n    this._usesLitter = usesLitter;\n  }\n  get usesLitter() {\n    return this._usesLitter;\n  }\n}\n\n// other exemple\n\n\nclass HospitalEmployee {\n  constructor(name) {\n    this._name = name;\n    this._remainingVacationDays = 20;\n  }\n  \n  get name() {\n    return this._name;\n  }\n  \n  get remainingVacationDays() {\n    return this._remainingVacationDays;\n  }\n  \n  takeVacationDays(daysOff) {\n    this._remainingVacationDays -= daysOff;\n  }\n  \n  static generatePassword() { // static method its not aviable on instances of the class or instances of the subclasses\n    return Math.floor(Math.random() * 10000);\n  }\n}\n\nclass Nurse extends HospitalEmployee {\n  constructor(name, certifications) {\n    super(name);\n    this._certifications = certifications;\n  } \n  \n  get certifications() {\n    return this._certifications;\n  }\n  \n  addCertification(newCertification) {\n    this.certifications.push(newCertification);\n  }\n}\n\nconst nurseOlynyk = new Nurse('Olynyk', ['Trauma','Pediatrics']);\nnurseOlynyk.takeVacationDays(5);\nconsole.log(nurseOlynyk.remainingVacationDays);\nnurseOlynyk.addCertification('Genetics');\nconsole.log(nurseOlynyk.certifications);\n\n\n// modules\n\nlet Menu = {};\nMenu.specialty = \"Roasted Beet Burger with Mint Sauce\";\n\nmodule.exports = Menu;\n\n// modules es6 default export \n\nlet Menu = {};\n\nexport default Menu;\n\n// another exemple with default export\nconst Airplane = {\n  \n}\n\nAirplane.availableAirplanes = [\n  {\n  name: 'AeroJet',\n  fuelCapacity: 800\n }, \n {name: 'SkyJet',\n  fuelCapacity: 500\n }\n];\n\nexport default Airplane;\n\n// ES6 import\n\nimport Airplane from './airplane';\n\nfunction displayFuelCapacity() {\n  Airplane.availableAirplanes.forEach(function(element){\n  console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);\n  });\n}\n\ndisplayFuelCapacity();\n\n\n// ES6 name exports \n//specialty is a string object, while isVegetarian and isLowSodium are objects in the form of functions. Recall that in JavaScript, every function is in fact a function object.\n\nlet specialty = '';\nfunction isVegetarian() {\n}; \nfunction isLowSodium() {\n}; \n\nexport { specialty, isVegetarian };\n\n// other exemple\n\nlet availableAirplanes = [{\n name: 'AeroJet',\n fuelCapacity: 800,\n availableStaff: ['pilots', 'flightAttendants', 'engineers', 'medicalAssistance', 'sensorOperators'],\n}, \n{name: 'SkyJet',\n fuelCapacity: 500,\n availableStaff: ['pilots', 'flightAttendants']\n}];\n\nlet flightRequirements = {\n  requiredStaff: 4,\n};\n\nfunction meetsStaffRequirements(availableStaff, requiredStaff) {\n  if (availableStaff.length >= requiredStaff) {\n    return true;\n  } else {\n    return false;\n  }\n};\n\nexport { availableAirplanes, flightRequirements, meetsStaffRequirements};\n\n// named import\n\nimport { specialty, isVegetarian } from './menu';\n\nconsole.log(specialty);\n\n//q other exemple\n\nimport {availableAirplanes, flightRequirements, meetsStaffRequirements} from './airplane';\n\nfunction displayFuelCapacity() {\n  availableAirplanes.forEach(function(element) {\n    console.log('Fuel Capacity of ' + element['name'] + ': ' + element['fuelCapacity']);\n  });\n}\n\nfunction displayStaffStatus(){\n  availableAirplanes.forEach(function(element) {\n   console.log(element.name + ' meets staff requirements: ' + meetsStaffRequirements(element.availableStaff, flightRequirements.requiredStaff) );\n  });\n}\n\ndisplayStaffStatus();\n\n// Export Named Exports\n\nexport let specialty = '';\nexport function isVegetarian() {\n}; \nfunction isLowSodium() {\n};\n\n\n// other exemples\n\nexport let availableAirplanes = [\n{name: 'AeroJet',\n fuelCapacity: 800,\n availableStaff: ['pilots', 'flightAttendants', 'engineers', 'medicalAssistance', 'sensorOperators'],\n maxSpeed: 1200,\n minSpeed: 300\n}, \n{name: 'SkyJet',\n fuelCapacity: 500,\n availableStaff: ['pilots', 'flightAttendants'],\n maxSpeed: 800,\n minSpeed: 200\n}\n];\n\nexport let flightRequirements = {\n  requiredStaff: 4,\n  requiredSpeedRange: 700\n};\n\nexport function meetsStaffRequirements(availableStaff, requiredStaff) {\n  if (availableStaff.length >= requiredStaff) {\n    return true;\n  } else {\n    return false;\n  }\n};\n\nexport function meetsSpeedRangeRequirements(maxSpeed, minSpeed, requiredSpeedRange) {\n  let range = maxSpeed - minSpeed;\n  if (range > requiredSpeedRange) {\n    return true;\n    } else {\n    return false;\n  }\n};\n\n// Import Named Imports \n// use the same way that named import \n\nimport { specialty, isVegetarian } from 'menu';\n\n// Export as\n//  can change the variable names them exported\n\nlet specialty = '';\nlet isVegetarian = function() {\n}; \nlet isLowSodium = function() {\n}; \n\nexport { specialty as chefsSpecial, isVegetarian as isVeg, isLowSodium };\n\n/* \nImport as\nTo import named export aliases with the as keyword, we add the aliased variable in our import statement.\n\nimport { chefsSpecial, isVeg } from './menu';\nIn orders.js\n\nWe import chefsSpecial and isVeg from the Menu object.\nHere, note that if we have an option to alias an object that was not previously aliased when exported. For example, the isLowSodium object that we exported could be aliased with the as keyword when imported, for example import {isLowSodium as saltFree} from 'Menu';\nAnother way of using aliases is to import the entire module as an alias:\n\nimport * as Carte from './menu';\n\nCarte.chefsSpecial;\nCarte.isVeg();\nCarte.isLowSodium();\nThis allows us to import an entire module from menu.js as an alias Carte.\nIn this example, whatever name we exported would be available to us as properties of that module. For example if we exported the aliases chefsSpecial and isVeg, these would be available to us. If we did not give an alias to isLowSodium we would call it as defined on the Carte module.\n\n*/\n\n// https://caniuse.com\n// to check compatibility\n\n\n// some nodes comands\n\n// npm init  => create a packet.json on the root of the project with all the packages and metadata of the project\n\n//npm install babel-cli -D\n//npm install babel-preset-env -D\n// install babel, to trampile es6 to es5. the '-D' its to add to dependencies\n\n/* lesson resumes\n\ncaniuse.com — a website you can use to look up HTML, CSS, and JavaScript browser compatibility information.\nBabel — A JavaScript package that transpiles JavaScript ES6+ code to ES5.\nnpm init — A terminal command that creates a package.json file.\npackage.json — A file that contains information about a JavaScript project.\nnpm install — A command that installs Node packages.\nbabel-cli — A Node package that contains command line tools for Babel.\nbabel-preset-env — A Node package that contains ES6+ to ES5 syntax mapping information.\n.babelrc — A file that specifies the version of the JavaScript source code.\n\"build\" script — A package.json script that you use to tranpsile ES6+ code to ES5.\nnpm run build — A command that runs the build script and transpiles ES6+ code to ES5.\nFor future reference, here is a list of the steps needed to set up a project for transpilation:\n\nInitialize your project using npm init and create a directory called src\nInstall babel dependencies by running\nnpm install babel-cli -D\nnpm install babel-preset-env -D\nCreate a .babelrc file inside your project and add the following code inside it:\n{\n  \"presets\": [\"env\"]\n}\nAdd the following script to your scripts object in package.json:\n\"build\": \"babel src -d lib\"\nRun npm run build whenever you want to transpile your code from your src to lib directories.\n\n*/\n\n\n\n//Request\n\n// get\n\nconst xhr = new XMLHttpRequest;\nconst url = 'https://api-to-call.com/endpoint';\n\nxhr.responseType = 'json';\n\nxhr.onreadystatechange = function () {\n  if (xhr.readyState === XMLHttpRequest.DONE){\n    console.log(xhr.response);\n  }\n}\n\nxhr.open('GET', url);\nxhr.send();\n\n\n\n// exercice using google urlshorter api\n\n// Include data for accessing Google APIs\n\nconst apiKey = 'AIzaSyAMN6Z1fWX7nV97W6mKWwqwrRg9ySdSJOo';\nconst url = 'https://www.googleapis.com/urlshortener/v1/url';\nconst projection = 'FULL';\n\n// Some page elements\n\nconst $inputField = $('#input');\nconst $expandButton = $('#expand');\nconst $shortenButton = $('#shorten');\nconst $responseField = $('#responseField');\n\n// AJAX functions\n\nfunction expandUrl() {\n\tconst urlToExpand = url + '?key=' + apiKey +\n\t'&shortUrl=' + $inputField.val();\n  const xhr = new XMLHttpRequest;\n  xhr.responseType = 'json';\n  xhr.onreadystatechange = function (){\n    if (xhr.readyState === XMLHttpRequest.DONE) {\n  \t\tconsole.log(xhr.response);\n      $responseField.append('<p>Your expanded url is: </p><p>' + xhr.response.longUrl + '</p>');\n\t\t}\n  }\n  xhr.open('GET', urlToExpand);\n  xhr.send();\n}\n\nfunction shortenUrl() {\n\tconst urlWithKey = url + '?key=' + apiKey;\n  const urlToShorten = $inputField.val();\n  const data = JSON.stringify({longUrl: urlToShorten});\n  const xhr = new XMLHttpRequest;\n  xhr.responseType = 'json';\n  xhr.onreadystatechange = function (){\n    if (xhr.readyState === XMLHttpRequest.DONE) {\n      $responseField.append('<p>Your shortened url is: </p><p>' + xhr.response.id + '</p>');\n    }\n  }\n  xhr.open('POST', urlWithKey );\n  xhr.setRequestHeader('Content-Type', 'application/json');\n  xhr.send(data);\n}\n\nfunction expand() {\n  $responseField.empty();\n  expandUrl();\n  return false;\n}\n\nfunction shorten() {\n  $responseField.empty();\n  shortenUrl();\n  return false;\n}\n\n// Call functions on submit\n\n$expandButton.click(expand);\n$shortenButton.click(shorten);\n\n\n\n\n// get ussing jquery\n$.ajax({\n  url: 'https://api-to-call.com/endpoint',\n  type:'GET',\n  dataType:'json',\n  success(response) {\n    console.log(response);\n  },\n  error(jqXHR, status, errorThrown) {\n    console.log(jqXHR);\n  }\n  \n});\n\n// post using jquery\n\n$.ajax({\n  url: 'https://api-to-call.com/endpoint',\n  type:'POST',\n  data:JSON.stringify({id: 200}),\n  dataType:'json',\n  success(response) {\n    console.log(response);\n  },\n  error(jqXHR, status, errorThrown) {\n    console.log(jqXHR);\n  }\n  \n});\n\n//$.get\n\n$.get('https://api-to-call.com/endpoint', response => {...}, 'json');\n\n//$.post\n\n$.post('https://api-to-call.com/endpoint', {data}, response => {...}, 'json');\n\n// adding more settings to $.post  https://api.jquery.com/jquery.post/\n\n$.post({\n  \turl: urlWithKey,\n  \tdata:JSON.stringify({longUrl: urlToShorten}),\n  \tdataType:'json',\n    contentType: 'application/json',\n  \tsuccess(response) {\n    \t$responseField.append('<p>Your shortened url is: </p><p>' + response.id + '</p>');\n  \t},\n  \terror(jqXHR, status, errorThrown) {\n   \t console.log(jqXHR);\n  \t}\n  \n\t});\n\n// $.getJSON()  http://api.jquery.com/jquery.getjson/\n// pass a get method and the json data type\n\n$.getJSON(urlToExpand, response => {\n    $responseField.append('<p>Your expanded url is: </p><p>' +\n  response.longUrl + '</p>');\n  });\n\n\n\n// XHR stands for XML Http Request\n\n\n// A Promise is an object that acts as a placeholder for data that has been requested but not yet received. Eventually, a Promise will resolve to the value requested or to a reason why the request failed.\n\n\n//fetch()\n\nfetch('https://api-to-call.com/endpoint').then( //send request andd chain the frist then()\nresponse => { //converts response object to a json\n\tif (response.ok) {\n   return response.json(); \n  }\n  throw new Error('Request failed!'); // handle erros\n}, networkError => {\n  console.log(networkError.message); // handle network error\n}).then(jsonResponse => jsonResponse); //handles success\n\n\n\n// exemple with fetch()\n\n// Include data for accessing Google APIs\nconst apiKey = 'AIzaSyAMN6Z1fWX7nV97W6mKWwqwrRg9ySdSJOo';\nconst url = 'https://www.googleapis.com/urlshortener/v1/url';\n\n// Some page elements\n\nconst $inputField = $('#input');\nconst $expandButton = $('#expand');\nconst $shortenButton = $('#shorten');\nconst $responseField = $('#responseField');\n\n// AJAX functions\n\nfunction expandUrl() {\n\tconst urlToExpand = url + '?shortUrl=' + $inputField.val() + '&key=' + apiKey;\n  fetch(urlToExpand).then( response => {\n    if(response.ok) {\n      return response.json();\n    }\n    throw new Error('Request failed!');\n  }, networkError => console.log(networkError.message)\n \t).then(jsonResponse => {$responseField.append('<p> Your expanded URL is </p><p> ' + jsonResponse.longUrl + '</p>');\nreturn jsonResponse;})\n};\n\n\nfunction shortenUrl() {\n\n};\n\nfunction expand() {\n  $responseField.empty();\n  expandUrl();\n  return false;\n};\n\nfunction shorten() {\n  $responseField.empty();\n  shortenUrl();\n  return false;\n};\n\n$expandButton.click(expand);\n$shortenButton.click(shorten);\n\n\n//fetch() post\n// samething as the previus fetch, but with a object as the seconbd argument \n\nfetch('https://api-to-call.com/endpoint', {\n  method: 'POST',\n  body: JSON.stringify({id: '200'})\n}).then( \nresponse => { \n\tif (response.ok) {\n   return response.json(); \n  }\n  throw new Error('Request failed!'); \n}, networkError => {\n  console.log(networkError.message); \n}).then(jsonResponse => jsonResponse); \n\n\n// full exemple with fetch() post\n\n\n// Include data for accessing Google APIs\nconst apiKey = '<Your API Key>';\nconst url = 'https://www.googleapis.com/urlshortener/v1/url';\n\n// Some page elements\n\nconst $inputField = $('#input');\nconst $expandButton = $('#expand');\nconst $shortenButton = $('#shorten');\nconst $responseField = $('#responseField');\n\n// AJAX functions\n\nfunction expandUrl() {\n  const urlToExpand = url + '?shortUrl=' + $inputField.val() + '&key=' + apiKey;\n  fetch(urlToExpand).then(response => {\n    if (response.ok) {\n      return response.json();\n    }\n    throw new Error('Request failed!');\n  }, networkError => console.log(networkError.message)).then(jsonResponse => {\n    $responseField.append('<p> Your expanded URL is </p><p> ' + jsonResponse.longUrl + '</p>');\n    return jsonResponse;\n  });\n};\n\n\nfunction shortenUrl() {\n  const urlWithKey = url + '?key=' + apiKey;\n  const urlToShorten = $inputField.val();\n  fetch(urlWithKey, {\n    method: 'POST', \n    headers: {\n      \"Content-type\": \"application/json\"\n    }, \n    body: JSON.stringify({longUrl: urlToShorten})\n  }).then(response => {\n    if (response.ok) {\n      return response.json();\n    }\n    throw new Error('Request failed!');\n  }, networkError => console.log(networkError.message)).then(jsonResponse => {\n    $responseField.append('<p> Your shortened URL is </p><p>' + jsonResponse.id + '</p>');\n    return jsonResponse;\n  });\n};\n\nfunction expand() {\n  $responseField.empty();\n  expandUrl();\n  return false;\n};\n\nfunction shorten() {\n  $responseField.empty();\n  shortenUrl();\n  return false;\n};\n\n$expandButton.click(expand);\n$shortenButton.click(shorten);\n\n\n\n// more about google api https://developers.google.com/web/updates/2015/03/introduction-to-fetch#post_request\n//more about primisse https://stackoverflow.com/questions/22539815/arent-promises-just-callbacks\n// more setings https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch\n\n\n// async get\n\n// text\n/*\nhttps://s3.amazonaws.com/codecademy-content/courses/intermediate-javascript-requests/diagrams/diagram7.svg\nasync GET Requests I\nLook at what you've built so far! You have a working app that uses the Google URL Shortener API to shorten or expand a URL entered by a user.\n\nBoth of the requests required a lot of similar boilerplate and, as is common with tasks that are repeated frequently in programming, there is a simpler way. The same requests that you've been writing by requesting the information with fetch() and chaining .then() to take advantage of the asynchronous properties of JavaScript can be condensed using two new function keywords introduced in ES7: async and await.\n\nBecause async / await is ES7, and therefore not yet supported by all browsers, it's essential to ensure your code is transpiled, or converted, to an earlier version of JavaScript if you're using them. A useful tool for transpilation is Babel.\n\nOn the first line, we use the async keyword to create the getData() function. The async keyword creates a function that will return a Promise.\n\nWe use a try/catch statement to separate the code that will handle success from the code that will handle errors. Inside the try code block, we use the fetch() function to send a request to the URL provided. As before, the fetch() function creates a request object and returns a Promise that will ultimately resolve to a response object.\n\nWe use the await keyword to tell the program to continue moving through the message queue while the Promise resolves. When this happens, the object is saved to a variable called response.\n\nThe conditional statement that checks the ok property of the response object is the same as in the previous two cases. We await the resolution of calling the .json() method on the response object and save the new JSON object to a variable called jsonResponse. We then return jsonResponse.\n\nFinally, in the block of the catch (error) statement, we log the error to the console.\n*/\n\nasync function getData() {\n   try {\n     let response = await fetch('https://api-to-call.com/endpoint');\n     if (response.ok) {\n       let jsonResponse = await response.json();\n       return jsonResponse;\n     }\n     throw new Error('Request failed!');\n   }\n  catch(error){\n    console.log(error);\n  }\n}\n\n\n//async POST Requests\n\nasync function getData() {\n  try {\n    let response = await fetch('https://api-to-call.com/endpoint', {\n      method: 'POST', \n      body: JSON.stringify({id: 200})\n    });\n    if (response.ok) {\n      let jsonResponse = await response.json();\n      return jsonResponse;\n    }\n    throw new Error('Request failed!');\n  } catch (error) {\n    console.log(error);\n  }\n};\n\n// full code\n\n// Include data for accessing Google APIs\nconst apiKey = '<Your API Key>';\nconst url = 'https://www.googleapis.com/urlshortener/v1/url';\n\n// Some page elements\nconst $inputField = $('#input');\nconst $expandButton = $('#expand');\nconst $shortenButton = $('#shorten');\nconst $responseField = $('#responseField');\n\n// AJAX functions\n\nasync function expandUrl() {\n  const urlToExpand = url + '?shortUrl=' + $inputField.val() + '&key=' + apiKey;\n  try {\n    let response = await fetch(urlToExpand);\n    if (response.ok) {\n      let jsonResponse = await response.json();\n      $responseField.append('<p> Your expanded URL is </p><p>' + jsonResponse.longUrl+ '</p>');\n      return jsonResponse;\n    }\n  } catch (error) {\n    console.log(error);\n  }\n}\n\nasync function shortenUrl() {\n  const urlToShorten = $inputField.val();\n  const urlWithKey = url + '?key=' + apiKey;\n  try {\n    let response = await fetch(urlWithKey, {\n      method: 'POST',\n      body: JSON.stringify({longUrl: urlToShorten}),\n      headers: {\n        \"Content-type\": \"application/json\"\n      }\n    });\n    if (response.ok) {\n      let jsonResponse = await response.json();\n      $responseField.append('<p> Your shortened URL is </p><p>' + jsonResponse.id + '</p>');\n      return jsonResponse;\n    }\n  } catch (error) {\n    console.log(error);\n  }\n}\n\n\n// Clear page and call AJAX functions\nfunction expand() {\n  $responseField.empty();\n  expandUrl();\n  return false;\n};\n\nfunction shorten() {\n  $responseField.empty();\n  shortenUrl();\n  return false;\n};\n\n$expandButton.click(expand);\n$shortenButton.click(shorten);\n\n\n",
+			"file": "/D/projects/notes/js notes.js",
+			"file_size": 15738,
+			"file_write_time": 131639889490310135,
+			"settings":
+			{
+				"buffer_size": 26756,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "// jsx expresion\nconst paragraphs = (\n  <div id=\"i-am-the-outermost-element\">\n    <p>I am a paragraph.</p>\n    <p>I, too, am a paragraph.</p>\n  </div>\n);\n\n\n// render\n\nReactDOM.render(<h1>Hello world</h1>, document.getElementById('app'));\n\n// ReactDOM it only updates dom elements that have change, so if we pass the same code again the second render will do nothing\n// usefull arcticle https://www.codecademy.com/articles/react-virtual-dom\n\n// dont use the atribute 'class' on a jsx, becouse its a reserved world for js, s[o use className insted\n\nlet myDiv = (\n  <div className=\"big\">I AM A BIG DIV</div>\n);\n\n\n// close the html self-closing tags wile ussing in jsx \n\n//Fine in JSX:\n\n  <br />\n\n//NOT FINE AT ALL in JSX:\n\n  //<br>\n\n//to write js inside a jsx expression usse '{}' to mark the js part.\n\nReactDOM.render(\n  <h1>{2 + 3}</h1>,\n  document.getElementById('app')\n);\n\n// to use variable inside a jsx expression its just use the variable inside the braces \n\n// Declare a variable:\nconst name = 'Gerdo';\n\n// Access your variable \n// from inside of a JSX expression:\nconst greeting = <p>Hello, {name}!</p>;\n\n\nconst sideLength = \"200px\";\n\nconst panda = (\n  <img \n    src=\"images/panda.jpg\" \n    alt=\"panda\" \n    height={sideLength} \n    width={sideLength} />\n);\n\n//Object properties are also often used to set attributes:\n\nconst pics = {\n  panda: \"http://bit.ly/1Tqltv5\",\n  owl: \"http://bit.ly/1XGtkM3\",\n  owlCat: \"http://bit.ly/1Upbczi\"\n}; \n\nconst panda = (\n  <img \n    src={pics.panda} \n    alt=\"Lazy Panda\" />\n);\n\nconst owl = (\n  <img \n    src={pics.owl} \n    alt=\"Unimpressed Owl\" />\n);\n\nconst owlCat = (\n  <img \n    src={pics.owlCat} \n    alt=\"Ghastly Abomination\" />\n);\n\n// list of suported event listener https://reactjs.org/docs/events.html#supported-events\n//obs use camelCase on event listener\n\nfunction makeDoggy(e) {\n  // Call this extremely useful function on an <img>.\n  // The <img> will become a picture of a doggy.\n  e.target.setAttribute('src', 'https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-puppy.jpeg');\n  e.target.setAttribute('alt', 'doggy');\n}\n\nconst kitty = (\n\t<img \n    onClick = {makeDoggy}\n\t\tsrc=\"https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-kitty.jpg\" \n\t\talt=\"kitty\" />\n);\n\n\n\n// IMPORTANT\tu CAN`T inject a if statement on a jsx learn more here https://reactjs.org/docs/jsx-in-depth.html\n// u can use if outside the jsx to change a value of a variable\n// u can use ternary operator on the jsx https://stackoverflow.com/questions/6259982/how-do-you-use-the-conditional-operator-in-javascript\n\nfunction coinToss () {\n  // Randomly return either 'heads' or 'tails'.\n  return Math.random() < 0.5 ? 'heads' : 'tails';\n}\n\nconst pics = {\n  kitty: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-kitty.jpg',\n  doggy: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-puppy.jpeg'\n};\n\nconst img = <img src={pics[coinToss() === 'heads' ? 'kitty' : 'doggy']} />;\n\nReactDOM.render(\n\timg, \n\tdocument.getElementById('app')\n);\n\n// using the '&&' operator, the '&&' operator its the best choice for conmsitional that will sometimes do an action, but other times do nithing at all\n\nconst tasty = (\n  <ul>\n    <li>Applesauce</li>\n    { !baby && <li>Pizza</li> }\n    { age > 15 && <li>Brussels Sprouts</li> }\n    { age > 20 && <li>Oysters</li> }\n    { age > 25 && <li>Grappa</li> }\n  </ul>\n);\n\n\n// implicit list using .map()\n\nconst strings = ['Home', 'Shop', 'About Me'];\n\nconst listItems = strings.map(string => <li>{string}</li>);\n\n<ul>{listItems}</ul>\n\n//keys  keys its a jsx attribute, must be unique, just like a id in html\n//react uses them internally to keep track of lists\n\n// not all list need to have keys\n\n/*\nA list needs keys if either of the following are true:\n\nThe list-items have memory from one render to the next. For instance, when a to-do list renders, each item must \"remember\" whether it was checked off. The items shouldn't get amnesia when they render.\n\nA list's order might be shuffled. For instance, a list of search results might be shuffled from one render to the next.\n\n*/\n\n// exemple os creating keys\n\nconst people = ['Rowe', 'Prevost', 'Gare'];\n\nconst peopleLis = people.map((person, i) =>\n  <li key={'person_'+ i}>{person}</li>\n\n);\n\n// React.createElement  create a jsx element without using jsx at all\n// jsx normal code\n\nconst h1 = <h1>Hello world</h1>;\n\n//without jsx\n\nconst h1 = React.createElement(\n  \"h1\",\n  null,\n  \"Hello, world\"\n);\n\n// in-depth documentation https://reactjs.org/docs/react-api.html#react.createelement\n\n\n// notes of virtual DOM\n/*\n\nA JSX element renders.\nThe entire virtual DOM updates.\nThe virtual DOM \"diffs,\" comparing its current self with its previous self.\nPart of the real DOM updates.\nThe screen looks different than it used to.*/\n\n\n// some links talking about class and subclassing\n// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes\n// https://hacks.mozilla.org/2015/07/es6-in-depth-classes/\n// https://hacks.mozilla.org/2015/08/es6-in-depth-subclassing/\n// http://exploringjs.com/es6/ch_classes.html\n\n\n// WHRITE CLASSES USING UpperCamelCase https://en.wikipedia.org/wiki/Naming_convention_(programming)#Java\n\n// components\n// remember, write classes using es6 sintax http://exploringjs.com/es6/ch_classes.html\n\nimport React from 'react'; // creat a js object, this object contains properties that aew needed to react work\nimport ReactDOM from 'react-dom'; // another obj, its contanis methods that help react interact with the DOM\n\nclass MyComponentClass extends React.Component {  // create a new component class that exend the master class\n  render() { // a react component class MUST have a render method, and that method must have a return that usualy returns a jsx expresion\n    return <h1>Hello world</h1>; // to use multiple lines, warp them in parentheses\n  }\n};\n\nReactDOM.render( // them using a component as the frist argument of 'reactDOM.render' it call the render() method of the component\n  <MyComponentClass />, \n  document.getElementById('app')\n);\n\n/* important text about make react cvomponent\n\nTo make a React component, you write a JSX element. Instead of naming your JSX element something like h1 or div like you've done before, give it the same name as a component class. Voilà, there's your component instance!\n\nJSX elements can be either HTML-like, or component instances. JSX uses capitalization to distinguish between the two! That is the React-specific reason why component class names must begin with capital letters. In a JSX element, that capitalized first letter says, \"I will be a component instance and not an HTML tag.\" \n*/\n// make notes about how to startt a project\n\n\n\n// import \n\nimport { NavBar } from './NavBar'; //importing this on the begining of the document will import the navbar from the file, if nome extension is passed, js its assumed \n\n\n// export\n// export comes from the es6 module system, just like import (http://exploringjs.com/es6/ch_modules.html)\n// u can put export before any top level variable or cclass etc\n\nexport const faveManifestos = { } //this is call named exports, and u NEED TO USE CURLY BRACES  on the import such \" import { NavBar } from './NavBar'\"\n\n// diference betwin defaul import export and named import export\n// named can export serval per module insted of default`s the one per module \n// check es6 documetation and this article for more info (https://hackernoon.com/import-export-default-require-commandjs-javascript-nodejs-es6-vs-cheatsheet-different-tutorial-example-5a321738b50f)\n\n\n// article about module way of doing things in js \n// http://eloquentjavascript.net/10_modules.html\n// es6 modules https://hacks.mozilla.org/2015/08/es6-in-depth-modules/\n\n\n//props \n// every component have a props object, u can acess it using this.props\n// you can pass props like atributes of the coimponent, just like hml tags \n<Greeting firstName='Groberta' />\n//we can acess this using \"this.Greeting.fristName\" \n\n//You can, and often will, pass functions as props. It is especially common to pass event handler functions\n//exemple\n//talker\nclass Talker extends React.Component {\n  talk() { // ussualy uses \"handleClick\" bc... its handlke the event of click\n    let speech = '';\n    for (let i = 0; i < 10000; i++) {\n      speech += 'blah ';\n    }\n    alert(speech);\n  }\n  \n  render() {\n    return <Button talk={this.talk}/>; // u can use \"onClick\" because its more intuitive to handle this event, and dont wworries, its a component not a html element, so u can use this tipes of names\n  }\n}\n\nReactDOM.render(\n  <Talker />,\n  document.getElementById('app')\n);\n\n//button\n\nimport React from 'react';\n\nexport class Button extends React.Component {\n  render() {\n    return (\n      <button onClick={this.props.talk} >\n        Click me!\n      </button>\n    );\n  }\n}\n\n//this.props.children\n// return everything between a component`s opening and closing jsx tag\n// if a component have more them one child, then this.props.children will return a array\n//if it onle have one child, it i`ll return the single child NOT WRAPPED in a array\n\n//exemple\n\n//app.js\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { List } from './List';\n\nclass App extends React.Component {\n  render() {\n    return (\n      <div>\n        <List type='Living Musician'>\n          <li>Sachiko M</li>\n          <li>Harvey Sid Fisher</li>\n        </List>\n        <List type='Living Cat Musician'>\n          <li>Nora the Piano Cat</li>\n        </List>\n      </div>\n    );\n  }\n}\n\nReactDOM.render(\n  <App />, \n  document.getElementById('app')\n);\n\n//list.js\nimport React from 'react';\n\nexport class List extends React.Component {\n  render() {\n    let titleText = `Favorite ${this.props.type}`;\n    if (this.props.children instanceof Array) {\n    \ttitleText += 's';\n    }\n    return (\n      <div>\n        <h1>{titleText}</h1>\n        <ul>{this.props.children}</ul>\n      </div>\n    );\n  }\n}\n\n\n//defaultProps\n// data that will diaplay if no expecifics props have a value\nclass Example extends React.Component {\n  render() {\n    return <h1>{this.props.text}</h1>;\n  }\n}\n\nExample.defaultProps = { text: 'yo' };\n// so if no one pass the prop text, the value 'yo' will be pass\n\n\n\n//state\n// besides props, state its the other form of using dynamic info on components\n// unlike prop, state need be a componet`s property \n\nclass Example extends React.Component {\n  constructor(props) {\n    super(props); //react components NEED to pass 'super' to the constructor to work it\n    this.state = { mood: 'decent' }; // this.statew MUST BE a object\n  }\n\n  render() {\n    return <div></div>;\n  }\n}\n\n<Example />\n\n// article about the constructor and super from es6 standart https://hacks.mozilla.org/2015/07/es6-in-depth-classes/\n// to acess the component state  just use 'this.state.namo-of-the-state'\n\n// update state\n// a componet can update it`s own state clasing the funciton \"this.setState($object-that-will-update-the-state, callback)\"\n// usually to call this.setState() its to call a function that warp it.\n\nclass Example extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = { weather: 'sunny' };\n    this.makeSomeFog = this.makeSomeFog.bind(this);// to workaround the 'this' on the event handler\n  }\n\n  makeSomeFog() {\n    this.setState({\n      weather: 'foggy'\n    });\n  }\n}\n\n//just know that in React, whenever you define an event handler that uses this, you need to add this.methodName = this.methodName.bind(this) to your constructor function.\n// article about that https://reactjs.org/docs/handling-events.html\n\n\n// When you write a component class method that uses this, then you need to bind that method inside of your constructor function!\n//Add the following line to the end of constructor():\n// exemple\nthis.changeColor = this.changeColor.bind(this);\n\n//IMPORTANT\n//Any time that you call this.setState(), this.setState() AUTOMATICALLY calls .render() as soon as the state has changed.\n\n\n//A component should never update this.props\n\n//A React component should use props to store information that can be changed, but can only be changed by a different component.\n//A React component should use state to store information that the component itself can change.\n\n//some exemple\n//stateless component updating statefull component\n\n//child.js\n\nimport React from 'react';\n\nexport class Child extends React.Component {\n  constructor(props){\n    super(props);\n    this.handleChange = this.handleChange.bind(this);\n  }\n  handleChange(e) {\n    const name = e.target.value;\n    this.props.onChange(name);\n  }\n  render() {\n    return (\n      <div>\n        <h1>\n          Hey my name is {this.props.name}!\n        </h1>\n        <select onChange={this.handleChange} id=\"great-names\">\n          <option value=\"Frarthur\">\n            Frarthur\n          </option>\n\n          <option value=\"Gromulus\">\n            Gromulus\n          </option>\n\n          <option value=\"Thinkpiece\">\n            Thinkpiece\n          </option>\n        </select>\n      </div>\n    );\n  }\n}\n\n//parent.js\n\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { Child } from './Child';\n\nclass Parent extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.state = { name: 'Frarthur' };\n    this.changeName = this.changeName.bind(this);\n  }\n\n  changeName(newName){\n  \tthis.setState({ name: newName });  \n  }\n  \n  render() {\n    return <Child name={this.state.name} onChange={this.changeName} />\n  }\n}\n\nReactDOM.render(\n\t<Parent />,\n\tdocument.getElementById('app')\n);\n\n\n\n\n\n// now the real partten. the component should have only one job\n// a 3 component, one for display , one for change and a statefull component\n\n//parent.js\n\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { Child } from './Child';\nimport { Sibling } from './Sibling';\n\nclass Parent extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.state = { name: 'Frarthur' };\n\n    this.changeName = this.changeName.bind(this);\n  }\n\n  changeName(newName) {\n    this.setState({\n      name: newName\n    });\n  }\n\n  render() {\n    return (\n      <div>\n        <Child \n          onChange={this.changeName} />\n        <Sibling  name={this.state.name}/>\n      </div>\n    );\n  }\n}\n\nReactDOM.render(\n  <Parent />,\n  document.getElementById('app')\n);\n\n//child.js\nimport React from 'react';\n\nexport class Child extends React.Component {\n  constructor(props) {\n    super(props);\n\n    this.handleChange = this.handleChange.bind(this);\n  }\n\n  handleChange(e) {\n    const name = e.target.value;\n    this.props.onChange(name);\n  }\n\n  render() {\n    return (\n      <div>\n        <select\n          id=\"great-names\"\n          onChange={this.handleChange}>\n\n          <option value=\"Frarthur\">Frarthur</option>\n          <option value=\"Gromulus\">Gromulus</option>\n          <option value=\"Thinkpiece\">Thinkpiece</option>\n        </select>\n      </div>\n    );\n  }\n}\n\n// sibling.js\n\nimport React from 'react';\n\nexport class Sibling extends React.Component {\n  render() {\n\t\tlet name = this.props.name;\n    return (\n      <div>\n        <h1>Hey, my name is {name}</h1>\n        <h2>Don't you think {name} is the prettiest name ever?</h2>\n        <h2>Sure am glad that my parents picked {name}!</h2>\n      </div>\n    );\n  }\n}\n\n\n\n// cheat sheet \n// https://www.codecademy.com/articles/bwa-react-reference\n\n// deploy\n//https://daveceddia.com/deploy-create-react-app-surge/",
+			"file": "/D/projects/notes/react notes.js",
+			"file_size": 7988,
+			"file_write_time": 131640501875549079,
+			"settings":
+			{
+				"buffer_size": 15409,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 1835,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/App/App.js",
+			"settings":
+			{
+				"buffer_size": 769,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/SearchBar/SearchBar.js",
+			"settings":
+			{
+				"buffer_size": 1928,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/BusinessList/BusinessList.js",
+			"settings":
+			{
+				"buffer_size": 419,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Business/Business.js",
+			"settings":
+			{
+				"buffer_size": 838,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/util/Yelp.js",
+			"settings":
+			{
+				"buffer_size": 979,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 323.0,
+		"last_filter": "javasc",
+		"selected_items":
+		[
+			[
+				"javasc",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Install Package Control"
+			]
+		],
+		"width": 398.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/projects/ravenous",
+		"/D/projects/ravenous/public",
+		"/D/projects/ravenous/src",
+		"/D/projects/ravenous/src/components",
+		"/D/projects/ravenous/src/components/App",
+		"/D/projects/ravenous/src/components/Business",
+		"/D/projects/ravenous/src/components/BusinessList",
+		"/D/projects/ravenous/src/components/SearchBar"
+	],
+	"file_history":
+	[
+		"/D/projects/jammming/src/index.js",
+		"/D/projects/jammming/src/registerServiceWorker.js",
+		"/D/projects/jammming/src/App.js",
+		"/D/projects/ravenous/src/index.js",
+		"/C/Users/Roberto/Desktop/Yelp.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE47D4E63B/Yelp.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO0B7A8812/SearchBar.js",
+		"/C/Users/Roberto/Downloads/Telegram Desktop/config.json",
+		"/D/projects/ravenous/src/App.test.js",
+		"/D/projects/ravenous/src/components/Business/business.js",
+		"/D/projects/ravenous/src/components/BusinessList/BusinessList.js",
+		"/D/projects/ravenous/src/components/SearchBar/SearchBar.js",
+		"/D/projects/ravenous/src/App.js",
+		"/D/projects/reactTest/reacttest/src/App.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A8C59D0/Business.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A8EB691/Business.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A86E71E/Business.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A85E8C5/App.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A8D84D8/SearchBar.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A818256/Business.js",
+		"/D/projects/ravenous/src/App.css",
+		"/D/projects/ravenous/src/components/Business/business.css",
+		"/D/projects/ravenous/src/components/SearchBar/SearchBar.css",
+		"/D/projects/ravenous/src/components/BusinessList/BusinessList.css",
+		"/C/xampp/htdocs/teste/.env",
+		"/D/projects/ravenous/public/reset.css",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE06BB49CD/minesweeper.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE06BF2B6D/minesweeper.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE06BB175D/minesweeper.js",
+		"/C/Users/Roberto/testeRomulo.js",
+		"/C/Users/Roberto/Desktop/minesweeper.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE884F5B5D/minesweeper.js",
+		"/C/Users/Roberto/Documents/unicast/mod_popup/tmpl/default.php",
+		"/C/Users/Roberto/Documents/unicast/mod_popup/mod_popup.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp19672/var/www/tempsite/mailing/projetos/labh2/callForAbstract/call.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp25271/var/www/tempsite/INCTEM/configuration.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp17366/var/www/tempsite/mailing/projetos/labh2/cartachineses/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14487/var/www/tempsite/mailing/projetos/ltc/workshopcenarios/img.png",
+		"/C/Users/Roberto/AppData/Local/Temp/scp38248/public_html/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp37948/public_html/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp36550/public_html/templates/UnciastTemplate/css/mediaQuery.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp18375/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp20622/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp18572/public_html/templates/UnciastTemplate/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp36734/public_html/templates/UnciastTemplate/css/template.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp39744/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp54000/public_html/templates/UnciastTemplate/css/mediaQuery.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp35064/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp38184/public_html/templates/UnciastTemplate/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp18589/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp13016/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp36484/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp22337/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp55342/var/www/tempsite/escolapiloto/templates/UnicastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp31285/var/www/tempsite/centroclima/templates/UnciastTemplate/css/custom.css",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Roberto/AppData/Local/Temp/scp33276/public_html/libraries/joomla/session/handler/native.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14852/php.ini",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57433/public_html/installation/index2.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57105/public_html/installation/index1.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp47649/public_html/installation/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp46848/public_html/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp20783/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp04536/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57110/public_html/templates/UnciastTemplate/css/template.css",
+		"/C/Users/Roberto/Documents/logo.png",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14777/public_html/templates/UnciastTemplate/logo.png",
+		"/C/Users/Roberto/AppData/Local/Temp/scp39076/var/www/tempsite/mailing/projetos/po/romulo/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp44160/var/www/tempsite/anais/RIC.csv",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14380/var/www/tempsite/senamentopdf/data.csv",
+		"/C/Users/Roberto/Documents/A3 Microdrenagem Pluvial_1oDistrito_revistoOMR.pdf",
+		"/C/Users/Roberto/AppData/Local/Temp/scp18582/var/www/tempsite/senamentopdf/documentos/drenagem/A3 Microdrenagem Pluvial_1oDistrito_revistoOMR.pdf",
+		"/C/Users/Roberto/AppData/Local/Temp/scp33252/var/www/coloquio_peq/templates/UnciastTemplate/js/main.js",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14738/var/www/tempsite/mailing/criador.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14246/var/www/tempsite/mailing/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp30655/var/www/tempsite/xxxianpet/news/atencao/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp47035/var/www/tempsite/mailing/projetos/teste/teste1/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57538/var/www/microbiologia.ufrj.br/XXIIIsemana/templates/unicasttemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp10766/var/www/microbiologia.ufrj.br/XXIIIsemana/templates/unicasttemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp32898/var/www/tempsite/xxiiisemana/templates/unicasttemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp26347/var/www/tempsite/imuno/templates/UnciastTemplate/js/main.js",
+		"/C/Users/Roberto/AppData/Local/Temp/scp29626/var/www/tempsite/imuno/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp47260/var/www/tempsite/imuno/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp10848/dados/www/piloto/presencial/formulario.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp25432/var/www/tempsite/dei/templates/rt_anacron/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp34235/var/www/tempsite/petInscricao/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp23834/var/www/tempsite/dei/templates/rt_anacron/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp19356/var/www/provaextramuros.org.br/templates/extramuros/css/main.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp17877/var/www/tempsite/imuno/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp13907/var/www/tempsite/imuno/modules/mod_news_pro_gk5/interface/css/style.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp08290/var/www/tempsite/imuno/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp38272/var/www/tempsite/imuno/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp17233/var/www/coloquio_peq/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp36622/var/www/coloquio_peq/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/Downloads/relatorio 2017",
+		"/C/Users/Roberto/AppData/Local/Temp/scp09197/var/www/tempsite/ardentia/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp09138/var/www/tempsite/ardentia/templates/UnciastTemplate/logo.png",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57197/var/www/tempsite/IH/modules/mod_social/mod_social.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57828/var/www/tempsite/IH/modules/mod_social/css/esquerda.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"npm",
+			"class",
+			"neighborcolumnIndex",
+			"math",
+			"combinação",
+			"combinação ",
+			"Triplo",
+			"\n",
+			");\n",
+			"7",
+			"novafaixa",
+			"noticias"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/projects/minesweeper/src/minesweeper.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3184,
+								3184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1545.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/projects/notes/js notes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26113,
+								26113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 14615.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/projects/notes/react notes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3084,
+								3084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 687.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								1008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/components/App/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "src/components/SearchBar/SearchBar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/components/BusinessList/BusinessList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/components/Business/Business.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								296,
+								296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/util/Yelp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								979,
+								979
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.479532163743,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "projectRavenus.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
